@@ -1,0 +1,43 @@
+GIt Cheat Sheet
+
+Configurations
+--------------
+git config --global user.name "FirstName LastName"
+git config --global user.email "your-email"
+git config --global color.ui true
+git config --list
+
+Starting a repository
+---------------------
+git init
+git status
+
+Staging Files
+-------------
+git add <file-name>
+git add <file-name1> <file-name2>
+git add .
+git add -A
+git add --all
+git rm --cached <file-name>
+git reset <file-name>
+
+Commiting to a repository
+-------------------------
+git commit -m "Commit-message"
+git reest --soft HEAD^
+git commit --amend -m <Enter message>
+
+Pushing and pulling to and from repositories
+-------------------------------------------
+git remote add origin <link>
+git push -u origin master
+git clone
+git pull
+
+Branching
+---------
+git branch
+git branch <branch-name>
+git checkout <branch-name>
+git checkout -b <branch-name>
