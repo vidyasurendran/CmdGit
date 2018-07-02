@@ -14,8 +14,8 @@ git status
 
 Staging Files
 -------------
-git add <file-name> <file-name2> <file-name3>
-git add <file-name1>
+git add <file-name>
+git add <file-name1> <file-name2> <file-name3>
 git add .
 git add -A
 git add --all
